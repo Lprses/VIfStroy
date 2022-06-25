@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
+*{
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+}
+.container{
+    display: flex !important;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+h2{
+    text-align: center;
+}
+/* upside */
+.upside{
+    padding-left: 75%;
+    display: flex;
+    background: #333333;
+}
+.upside a{
+    text-decoration: none;
+    color: #AAAAAA;
+}
+/* end of upside */
+.main{
+    min-height: 70vh;
+}
+.content{
+    display: table-row;
+    height: 100%;
+}
+/* footer */
+.footer{
+    display: flex;
+}
+.footer-item{
+    padding-left: 3%;
+}
+.footer-item a{
+    padding-top: 12px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.footer-item h3{
+    width: 270px;
+}
+.footer-items{
+    padding-left: 13%;
+    margin-top: -40px;
+}
+.footer-items a{
+    display: flex;
+}
+.footer-items img{
+    width:150px;
+    height: 120px;
+}
+/* end of footer */
+.user-form{
+    display: flex;
+    align-items: center;
+}
+
+/*catalog*/
+.store{
+    max-width: 1280px;
+    margin-left: 20%;
+}
+.wrapped{
+    flex-wrap: wrap;
+}
+.all-items{
+    display: flex;
+    text-align: center;
+}
+.first-items{
+    display: none;
+}
+.store-item{
+    border: 1px solid gray;
+    width: 257px;
+    height: 375px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+.title{
+    height: 50px;
+}
+.store-item img{
+    padding-top: 10px;
+    padding-left: 40px;
+    width: 163px;
+    height: 183px;
+}
+/*end of catalog*/
+.carousel-item{
+    background: #000
+}
+.carousel-item img{
+    opacity: 0.4;
+}
+.carousel-item h5{
+    text-align: center;
+    margin-top: -20% ;
+    font-size: 25px;
+}
+.second{
+    padding-top: 100px;
+    text-align: center;
+}
+.second p{
+    margin-left: 5%;
+}
+.second p:first-child::before{
+    content: url("/public/image/first.svg");
+    position: relative;
+    border: 10px solid #537BE2;
+    padding: 35px 15px 15px 15px;
+    border-radius: 100%;
+}
+.second p:nth-child(2)::before{
+    content: url("/public/image/second.svg");
+    position: relative;
+    border: 10px solid #537BE2;
+    padding: 40px 25px 10px 25px;
+    border-radius: 100%;
+}
+.second p:nth-child(3)::before{
+    content: url("/public/image/third.svg");
+    position: relative;
+    border: 10px solid #537BE2;
+    padding: 40px 14px 10px 14px;
+    border-radius: 100%;
+}
+.second p:last-child::before{
+    content: url("/public/image/fourth.svg");
+    position: relative;
+    border: 10px solid #537BE2;
+    padding: 37px 20px 14px 18px;
+    border-radius: 100%;
+}
+/*check content*/
+.check{
+    background-image: url(/public/image/background/background6.png);
+    background-repeat: repeat;
+    margin-top: 100px;
+    max-width: 1920px;
+    height: 450px;
+    color: rgba(51, 51, 51, 1);;
+}
+.check-content{
+    display: flex;
+}
+.check-content nav{
+    padding-right: 255px;
+}
+.check-content h2{
+    margin-top: 15px;
+    font-size: 45px;
+}
+.check-content p{
+    font-size: 23px;
+    max-width: 600px;
+}
+.check-content button{
+    margin-left: 15px;
+    width: 222px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(0, 115, 255, 0.7);
+    font-size: 20px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.check-content button:hover{
+    border: none;
+    background-color: rgba(0, 115, 255, 0.5);
+}
+.check-content img{
+    height: 367px;
+    padding-top: 30px;
+    padding-left: 240px;
+}
+/*end of check content*/
+/* main content*/
+.content{
+    padding-top: 100px;
+    text-align: center;
+}
+.content-items{
+    padding-left: 10%;
+    padding-top: 50px;
+    display: flex;
+}
+.item{
+    padding-left: 10%;
+}
+/*end of main content*/
+/*content*/
+.contact img{
+    margin-left: 20%;
+}
+.map-integration{
+    background-image: url(/public/image/background/background8.png);
+    background-repeat: repeat;
+    height: 400px;
+}
+.map{
+    margin-left: 30%;
+    padding-top: 35px;
+    width: 700px;
+    height: 350px;
+}
+.test{
+    margin-top: 50px;
+}
